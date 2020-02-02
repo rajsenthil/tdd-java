@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-02T20:20:45.483Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="yH9cPyfXdzjuNC5xGyRC" version="12.6.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-02T20:22:01.128Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="1MU4tKjqlC1J0WV7maF9" version="12.6.4" type="github">
   <diagram id="sCM7uaMok8tgUvsMVrMC" name="Page-1">
     <mxGraphModel dx="1352" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,22 +244,22 @@
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-110" value="For negative 2 rotation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="600" width="180" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-113" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-113" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="142.5" y="810" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-114" value="9" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-114" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="172.5" y="810" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-115" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-115" value="8" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="810" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-116" value="Move the remaining element to front" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-116" value="Move the remaining element to tail" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="770" width="200" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-117" value="9" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-117" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="232.5" y="810" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-118" value="Copy the buffer to the tail" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-118" value="Copy the buffer to the head" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="880" width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-119" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -292,7 +292,7 @@
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-128" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="790" width="15" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-129" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-129" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="262.5" y="810" width="30" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-130" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -328,7 +328,7 @@
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-140" value="(input length - rotation size to front)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="770" width="190" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-141" value="(starting from input length - rotation)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-141" value="(starting from 0 to rotation-1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="880" width="225" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-145" value="Buffer size is number of rotation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
