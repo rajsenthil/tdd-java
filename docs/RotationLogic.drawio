@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-02T19:52:18.814Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="upWJKtF2uK1a-NAkTQtD" version="12.6.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-02T19:58:04.075Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="177ZKLaOubvEOa-s9QSB" version="12.6.4" type="github">
   <diagram id="sCM7uaMok8tgUvsMVrMC" name="Page-1">
     <mxGraphModel dx="1352" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -130,10 +130,10 @@
         <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-62" value="For 2 rotation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="525" y="100" width="180" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-63" value="Move to buffer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="220" width="100" height="20" as="geometry"/>
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-63" value="Buffer size is number of rotation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="210" width="200" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-64" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Zmsej9P6uwO4Pd-Vwgm-63" target="4Zmsej9P6uwO4Pd-Vwgm-57">
+        <mxCell id="4Zmsej9P6uwO4Pd-Vwgm-64" value="" style="endArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Zmsej9P6uwO4Pd-Vwgm-63" target="4Zmsej9P6uwO4Pd-Vwgm-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="505" y="330" as="sourcePoint"/>
             <mxPoint x="555" y="280" as="targetPoint"/>
