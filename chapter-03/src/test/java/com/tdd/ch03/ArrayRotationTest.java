@@ -27,7 +27,7 @@ public class ArrayRotationTest {
     @Test
     public void rotateArrayByNegtativePosition() {
         int[] result = arrayRotation.rotate(input, -2);
-        int[] expected = {1, 9, 8, 3, 4};
+        int[] expected = {9, 1, 8, 3, 4};
         assert Arrays.equals(result,expected);
     }
 }
