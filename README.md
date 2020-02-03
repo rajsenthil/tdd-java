@@ -31,9 +31,11 @@ Array rotation is that in a given array the rotation takes in counter clockwise 
 
 For example: 
 * For an array of size with elements [8, 3, 4, 9, 1] with two rotations will give [4, 9, 1, 8, 3] 
+
 ![Array with Two rotation](https://github.com/rajsenthil/tdd-java/raw/master/docs/images/ArrayRotateBy2.png "Array with Two rotations")
 
 * The same array with 3 rotaion will be 
+
 ![Array with Two rotation](https://github.com/rajsenthil/tdd-java/raw/master/docs/images/ArrayRotateBy3.png "Array with Three rotations")
 
 #### Project Structure
