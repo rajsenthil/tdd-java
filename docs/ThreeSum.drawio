@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-05T15:51:09.249Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="9Xks8JgnNLpkjHFvXG64" version="12.6.5" type="github">
+<mxfile host="www.draw.io" modified="2020-02-05T15:52:45.743Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jRlDcj8TEbk8h2T27Xu2" version="12.6.5" type="github">
   <diagram id="hKOfhL3Zno_I4Ylwi2E3" name="Page-1">
     <mxGraphModel dx="1352" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
             <mxPoint x="70" y="540" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uA478QOfjxfz7N-5Yo6L-13" value="target-2=7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=18;" vertex="1" connectable="0" parent="uA478QOfjxfz7N-5Yo6L-12">
+        <mxCell id="uA478QOfjxfz7N-5Yo6L-13" value="newTarget-2=7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=18;" vertex="1" connectable="0" parent="uA478QOfjxfz7N-5Yo6L-12">
           <mxGeometry x="-0.325" y="-2" relative="1" as="geometry">
             <mxPoint x="16" y="-22" as="offset"/>
           </mxGeometry>
@@ -60,10 +60,13 @@
           <mxGeometry x="270" y="440" width="120" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="uA478QOfjxfz7N-5Yo6L-17" value="Implementation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="20" y="590" width="140" height="20" as="geometry"/>
+          <mxGeometry x="20" y="770" width="140" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="uA478QOfjxfz7N-5Yo6L-24" value="int level = 0; // for two sum it should not cross 2 and for 3 sum it is 3&lt;br&gt;int[] results = new int[2];&lt;br&gt;&lt;br&gt;public int[] twoSums(int[] nums, int startPos, int target) {&lt;br&gt;&amp;nbsp; &amp;nbsp; if (level == 2) return;&lt;br&gt;&amp;nbsp; &amp;nbsp; for i = startPos to array-size -1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (nums[i] == target) {&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; results[level++] = i;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; twoSums(nums, i, target-nums[i]))&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="21" y="630" width="580" height="270" as="geometry"/>
+        <mxCell id="uA478QOfjxfz7N-5Yo6L-24" value="int level = 0; // for two sum it should not cross 2 and for 3 sum it is 3&lt;br&gt;int[] results = new int[2];&lt;br&gt;&lt;br&gt;public int[] twoSums(int[] nums, int startPos, int target) {&lt;br&gt;&amp;nbsp; &amp;nbsp; if (level == 2) return;&lt;br&gt;&amp;nbsp; &amp;nbsp; for i = startPos to array-size -1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (nums[i] == target) {&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; results[level++] = i;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; newTarget = target-nums[i]));&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; twoSums(nums, i, newTarget)&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="21" y="810" width="580" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="uA478QOfjxfz7N-5Yo6L-28" value="level=1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="140" y="510" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
